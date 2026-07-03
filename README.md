@@ -1,3 +1,4 @@
+dfjkafkladjfklajdfkl;ajf
 # Spotifyd <!-- omit in toc -->
 
 [![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)
