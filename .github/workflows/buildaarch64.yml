@@ -29,7 +29,9 @@ jobs:
 
       - name: Build spotifyd
         run: |
-          cargo build --locked --release
+          cargo build --locked --release \
+          --no-default-features \
+          --features "dbus_mpris,alsa_backend"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
